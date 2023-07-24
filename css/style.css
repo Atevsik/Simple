@@ -25,50 +25,56 @@ body{
     text-decoration: none;
     color: #4C5866;
     font-size: 1.1rem;
-    font-weight: 400;
+}
+
+.nav-ul a:hover{
+    color: #7875FE;
 }
 
 /* MAIN */
 
+
 .main{
-    margin-top: 8em;
-    max-width: 27.8em;
-    max-height: 38.7em;
+    padding: 8.1em 0 0 10.3em;
 }
 
-.main h1{
+.main-wraper{
+    display: flex;
+    align-items: flex-start;
+    gap: 8em;
+    
+}
+
+.main-wraper h1{
     color: #4C5866;
-    font-size: 3.7rem;
-    font-weight: 400;
+    font-size: 60px;
 }
 
-.main p{
+.main-wraper p{
     color: #85859B;
-    font-size: 1.1em;
-    font-weight: 400;
-    margin-top: 2em;
-    line-height: 1.7rem;
+    font-size: 1.1rem;
+    padding: 1.8em 0 0 0;
 }
 
-.main button{
-    background-color: #fff;
+
+.btn-title{
     width: 16em;
-    height: 4.4em;
-    padding: 1.3em 3.1em;
-    gap: 0.4em;
-    border: 1px solid #7875FE;
-    color: #7875FE;
+    height: 4.3em;
+    padding: 1.2em 3em;
+    margin-top: 1.8em; 
     font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 2em;
+    border: 1px solid #7875FE;
+    background-color: #fff;
+    color: #7875FE;
 }
 
-.img-main {
-    position: absolute;
-    float: right;
-    padding: 0 0 0 40em;   
+.btn-title:hover{
+    background-color: #7875FE;
+    color: #fff;
+    transition: 0.2s;
 }
 
-.result-main{
-    margin-top: 11em;
-}
+
+
+
+
