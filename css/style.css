@@ -8,6 +8,9 @@ body{
 
 .nav{
     padding: 1.8em 0 0 10.3em;
+}
+
+.wraper{
     max-width: 69em;
 }
 
@@ -36,6 +39,7 @@ body{
 
 .main{
     padding: 8.1em 0 0 10.3em;
+    max-width: 69em;
 }
 
 .main-wraper{
@@ -71,8 +75,56 @@ body{
 .btn-title:hover{
     background-color: #7875FE;
     color: #fff;
-    transition: 0.2s;
+    transition: 0.2s;   
 }
+
+.main-sec{
+    background-color: #EBEBEB;
+}
+
+.version-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    padding: 5.6em 0 0 0;
+}
+
+
+.info{
+    align-items: center;
+    max-width: 12.5em;
+
+}
+
+.info p{
+    margin-top: 0.4em;
+    color: #85859B;
+    font-size: 1.2rem;
+}
+
+.title-main{
+    background-color: #EBEBEB;
+    display: flex;
+    padding: 5.6em 0 0 10.3em;
+}   
+
+.max-belizna{
+    max-width: 21.8em;
+}
+
+.max-belizna h2{
+    color: #666;
+    font-size: 2.5rem;
+}
+
+.max-belizna p{
+    margin-top: 1em;
+    color: #85859B;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
 
 
 
