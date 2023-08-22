@@ -84,9 +84,8 @@ body{
 
 .version-main{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 1.5%;
+    gap: 2%;
     padding: 5.6em 0 0 0;
 }
 
@@ -125,8 +124,57 @@ body{
     line-height: 1.8rem;
 }
 
+.info-paket{
+    
+}
 
+.group-paket{
+    display: inline-block;
+    max-width: 15.6em;
+    padding: 1.8em;
+}
 
+.group-paket em{
+    color: #666;
+    font-size: 1.8rem;
+}
+
+.group-paket figcaption{
+    color: #B5B5BD;
+    font-size: 0.8rem;
+    margin-top: 1em;
+}
+
+.group-paket p{
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    line-height: 170%;
+    margin-top: 1em;
+}
+
+.group-paket a{
+    color: #7875FE;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.arrow{
+    border: solid #7875FE;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);  
+}
+
+.reklama{
+    background-color: #EBEBEB;
+}
+
+.baner-s-reklamoi{
+    
+}
 
 
 
