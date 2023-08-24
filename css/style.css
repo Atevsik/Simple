@@ -61,7 +61,7 @@ body{
 }
 
 
-.btn-title{
+.btn{
     width: 16em;
     height: 4.3em;
     padding: 1.2em 3em;
@@ -72,7 +72,7 @@ body{
     color: #7875FE;
 }
 
-.btn-title:hover{
+.btn:hover{
     background-color: #7875FE;
     color: #fff;
     transition: 0.2s;   
@@ -131,7 +131,7 @@ body{
 .group-paket{
     display: inline-block;
     max-width: 15.6em;
-    padding: 1.8em;
+    padding: 2em;
 }
 
 .group-paket em{
@@ -173,8 +173,64 @@ body{
 }
 
 .baner-s-reklamoi{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    padding-bottom: 30px;
+}
+
+.pre-header{
+    padding: 7em 0 0 10.3em;
+}
+
+.pre-header-info{
+    max-width: 22em;
+    float: left;
+}
+
+.pre-header-info h1{
+    color: #666;
+    font-size: 2.5em;
+}
+
+.pre-header-info p{
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 1.1em;
+    line-height: 2rem;
+    margin-top: 1.8em; 
+}
+
+.footer_f{
+    background-color: #4C5866;
+    padding-bottom: 1em;
+}
+
+.img-f{
+    position: absolute;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+    margin-right: 10em;
+}
+
+
+@media (width < 1200px ) {
+    .main-wraper img{
+        height: 600px;
+        width: 350px;
+    }
+}
+
+@media (width < 950px) {
     
 }
+
+
+
 
 
 
